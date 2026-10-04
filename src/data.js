@@ -1,19 +1,38 @@
+import img2 from "./Assets/bathtub-01.jpeg"
+import img3 from "./Assets/bathtub-02.jpeg"
+import img4 from "./Assets/toilet-03.jpeg"
+import img5 from "./Assets/faucet-01.jpeg"
+import img6 from "./Assets/ceramic-basin-01.jpeg"
+
 export const products=[
- {name:'Toilets & WCs',icon:'▣',desc:'Floor-mounted and wall-hung toilet solutions for residential, hospitality and commercial projects.'},
+ {name:'Toilets & WCs',
+    image:img4,
+    objectFit:'cover',
+    desc:'Floor-mounted and wall-hung toilet solutions for residential, hospitality and commercial projects.'},
+    
+ {name:'Wash Basins',image:img6,objectFit:'cover',desc:'Contemporary basin formats for bathrooms, hotels, developments and commercial interiors.'},
+ {name:'Sinks',image:img6,objectFit:'contain',desc:'Practical sink solutions selected for modern residential and project requirements.'},
 
- {name:'Wash Basins',icon:'◯',desc:'Contemporary basin formats for bathrooms, hotels, developments and commercial interiors.'},
 
- {name:'Sinks',icon:'⌂',desc:'Practical sink solutions selected for modern residential and project requirements.'},
+ {name:'Bathtubs',image:img3,objectFit:'cover',desc:'Freestanding and built-in bath solutions for modern bathroom environments.'},
 
- {name:'Bathtubs',icon:'▱',desc:'Freestanding and built-in bath solutions for modern bathroom environments.'},
 
- {name:'Showers',icon:'◈',desc:'Shower solutions designed to complement contemporary bathroom specifications.'},
+ {name:'Showers',image:img2,objectFit:'cover',desc:'Shower solutions designed to complement contemporary bathroom specifications.'},
 
- {name:'Faucets & Taps',icon:'⌁',desc:'Coordinated tapware options for functional and cohesive bathroom installations.'},
 
- {name:'Bidets',icon:'◒',desc:'Modern bidet solutions for residential and project applications.'},
- {name:'Bathroom Accessories',icon:'＋',desc:'Supporting accessories that complete a functional and refined bathroom installation.'}
+ {name:'Faucets & Taps',image:img5,objectFit:'cover',desc:'Coordinated tapware options for functional and cohesive bathroom installations.'},
+
+
+ {name:'Bidets',image:'',objectFit:'contain',desc:'Modern bidet solutions for residential and project applications.'},
+
+
+ {name:'Bathroom Accessories',image:'',objectFit:'contain',desc:'Supporting accessories that complete a functional and refined bathroom installation.'}
+
 ];
+
+
+
+
 export const services=[['International Supply','Sourcing and supplying sanitary ware for customers and projects across European markets.'],
 ['Bulk & Project Orders','Structured supply for developers, contractors, distributors and commercial projects.'],
 ['Custom & OEM','Support for customers seeking customized products, finishes or private-label requirements.'],
