@@ -31,7 +31,12 @@ function Layout({children}){return <><Seo/><Header/><main>{children}</main><Foot
 function Hero(){
     return <section className="hero">
         <div className="container hero-grid">
-            <div><div className="eyebrow">INTERNATIONAL SANITARY WARE SUPPLY</div><h1>CN2<br/><em>INTERNATIONAL LLC.</em></h1><p>CN2 International connects quality sanitary ware sourcing across China and Europe with customers and projects serving European markets.</p><div className="actions"><Link className="btn primary" to="/products">Explore Products <FiArrowRight/></Link><Link className="btn secondary" to="/contact">Request a Quote</Link></div><div className="trust"><span><FiCheck/>China & Europe sourcing</span><span><FiCheck/>European market focus</span><span><FiCheck/>Custom & OEM support</span></div></div><div className="hero-visual"><div className="visual-top"><span>CN2 / SUPPLY</span><span>01</span></div><div className="sink-shape"><div className="faucet"></div><div className="basin"></div></div><div className="visual-bottom"><b>MODERN BATHROOM SYSTEMS</b><span>Specification-led supply</span></div></div></div></section>}
+            <div>
+                <div className="eyebrow">INTERNATIONAL SANITARY WARE SUPPLY</div>
+                <h1>CN2<br/><em>INTERNATIONAL LLC.</em></h1>
+                <p>CN2 International connects quality sanitary ware sourcing across China and Europe with customers and projects serving European markets.</p><div className="actions"><Link className="btn primary" to="/products">Explore Products <FiArrowRight/></Link><Link className="btn secondary" to="/contact">Request a Quote</Link></div><div className="trust"><span><FiCheck/>China & Europe sourcing</span><span><FiCheck/>European market focus</span><span><FiCheck/>Custom & OEM support</span></div></div><div className="hero-visual"><div className="visual-top"><span>CN2 / SUPPLY</span><span>01</span></div><div className="sink-shape"><div className="faucet"></div>
+                <div className="basin"></div></div>
+                <div className="visual-bottom"><b>MODERN BATHROOM SYSTEMS</b><span>Specification-led supply</span></div></div></div></section>}
 
 
 
