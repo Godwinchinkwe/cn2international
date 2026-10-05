@@ -3,6 +3,9 @@ import img3 from "./Assets/bathtub-02.jpeg"
 import img4 from "./Assets/toilet-03.jpeg"
 import img5 from "./Assets/faucet-01.jpeg"
 import img6 from "./Assets/ceramic-basin-01.jpeg"
+import img7 from "./Assets/accessories.jpeg"
+import img8 from "./Assets/rake.jpeg"
+import img1 from "./Assets/sinks.jpeg"
 
 export const products=[
  {name:'Toilets & WCs',
@@ -11,7 +14,8 @@ export const products=[
     desc:'Floor-mounted and wall-hung toilet solutions for residential, hospitality and commercial projects.'},
     
  {name:'Wash Basins',image:img6,objectFit:'cover',desc:'Contemporary basin formats for bathrooms, hotels, developments and commercial interiors.'},
- {name:'Sinks',image:img6,objectFit:'contain',desc:'Practical sink solutions selected for modern residential and project requirements.'},
+ 
+ {name:'Sinks',image:img1,objectFit:'contain',desc:'Practical sink solutions selected for modern residential and project requirements.'},
 
 
  {name:'Bathtubs',image:img3,objectFit:'cover',desc:'Freestanding and built-in bath solutions for modern bathroom environments.'},
@@ -23,10 +27,10 @@ export const products=[
  {name:'Faucets & Taps',image:img5,objectFit:'cover',desc:'Coordinated tapware options for functional and cohesive bathroom installations.'},
 
 
- {name:'Bidets',image:'',objectFit:'contain',desc:'Modern bidet solutions for residential and project applications.'},
+ {name:'Bidets',image:img8,objectFit:'contain',desc:'Modern bidet solutions for residential and project applications.'},
 
 
- {name:'Bathroom Accessories',image:'',objectFit:'contain',desc:'Supporting accessories that complete a functional and refined bathroom installation.'}
+ {name:'Bathroom Accessories',image:img7,objectFit:'contain',desc:'Supporting accessories that complete a functional and refined bathroom installation.'}
 
 ];
 
